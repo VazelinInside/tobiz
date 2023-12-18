@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,100&family=Roboto');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151718;
+}
+.container{
+    margin:auto;
+    max-width: 100%;
+}
+@media screen and (max-width: 1920px){
+    header > .container{
+        height: 90px;
+    }
+    .tobiz-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .container{
+        width: 1080px;
+    }
+    header .button-tobiz{
+        margin-left: 25px;
+    }
+    .menu-header ul{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .container{
+        width: 940px;
+    }
+}
+@media screen and (max-width: 960px){
+    header > .container{
+        height: 105px;
+    }
+    .container{
+        width: 768px;
+    }
+}
+@media screen and (max-width: 800px){
+    header > .container{
+        height: 185px;
+    }
+    header > .container{
+        display: flex;
+        flex-direction: column;
+    }
+    header .button-tobiz{
+        margin: 0px 0px 20px;
+    }
+    .tobiz-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-header ul{
+        gap: 10px;
+        margin: 10px 0px 20px ;
+    }
+    .container{
+        width: 640px;
+    }
+}
+@media screen and (max-width: 640px){
+    .container{
+        width: 480px;;
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        width: 360px;
+    }
+    .menu-header ul{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    header > .container{
+        height: 220px;
+    }
+    .container{
+        width: 320px;
+    }
+}
+header > .container{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-tobiz{
+    color: #fff;
+    font: normal 600 36px/normal Roboto;
+}
+.menu-header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+header .element-list > a{
+    color: #fff;
+    cursor: pointer;
+    font: normal normal 16px/normal Roboto;
+    text-decoration: none;
+}
+header .button-tobiz{
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2);
+    color: #fff;
+    background-color: #6163ff;
+    padding: 0px 15px;
+    height: 35px;
+    font: normal 600 16px/normal Roboto;
+}
